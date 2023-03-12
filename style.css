@@ -14,11 +14,20 @@ h1{
     margin-right: 130px;
     border-bottom: grey solid 3px;
     
+}
 
+body:not(:hover) p{
+    color:blue ;
 }
 
 .hover img{
-    
-    margin: auto auto;
-    transition: 3s;
+    display: flex;
+    width: 0%;
+    margin: auto;
+    transition: 0.2s;
+}
+
+div:hover img{
+    width: 350px;
+    margin: 30px auto;
 }
