@@ -1,0 +1,24 @@
+body{
+    width: 921px;
+    border: cadetblue solid 2px;
+    margin: auto auto;
+    font-family: 'Mulish', sans-serif;
+    background-color: #f5f5eb;
+}
+h1{
+    margin-left: 130px;
+    
+}
+.hover{
+    margin-left: 130px;
+    margin-right: 130px;
+    border-bottom: grey solid 3px;
+    
+
+}
+
+.hover img{
+    
+    margin: auto auto;
+    transition: 3s;
+}
